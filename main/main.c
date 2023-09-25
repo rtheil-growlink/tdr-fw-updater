@@ -92,4 +92,7 @@ void app_main(void)
         //delay for 2000ms
         vTaskDelay(2000 / portTICK_PERIOD_MS);
     }
+
+    // Example raw command
+    //_sdi12Bus[bus]->raw_cmd(_sdi12Bus[bus], address, "I", response_out, sizeof(response_out), 1000);
 }
